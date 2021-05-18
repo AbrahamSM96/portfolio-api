@@ -6,52 +6,52 @@ portfolioRouter.get('/', async (request, response) => {
       title: 'Abraham Serrano Montiel',
       subtitle: 'Frontend Developer',
       contentTitle:
-        'Apasionado por las nuevas tecnologías, en constante aprendizaje y desarrollo.',
+        'Apasionado por las nuevas tecnologías que esta en constante aprendizaje y desarrollo.',
       url: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/LOGO-ASMZOOM.png?alt=media&token=4e08e6e5-6783-4420-8b72-62e774a3a7d1'
     },
     skills: {
       titleSkill: 'Skills',
-      skills: [
+      skillArray: [
         {
           id: '1',
-          skill: 'HTML 5',
+          name: 'HTML 5',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-html.png?alt=media&token=3082c40b-6937-4d62-ab8a-0edef5a591c9'
         },
         {
           id: '2',
-          skill: 'CSS 3',
+          name: 'CSS 3',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-css3.png?alt=media&token=5fb38a64-b19d-49cc-baae-2725b6336876'
         },
         {
           id: '3',
-          skill: 'JavaScript',
+          name: 'JavaScript',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-js.png?alt=media&token=19150664-1305-46a1-84e9-8dc4f8f8d6d2'
         },
         {
           id: '4',
-          skill: 'React',
+          name: 'React',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-react.png?alt=media&token=d5766952-3090-4543-8175-36c9d3fdfe1e'
         },
         {
           id: '5',
-          skill: 'Next.js',
+          name: 'Next.js',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/next.png?alt=media&token=38b8f116-a5fc-4413-8459-83699c725625'
         },
         {
           id: '6',
-          skill: 'Git',
+          name: 'Git',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-git.png?alt=media&token=addfc9c3-2b46-403d-9181-e58d0ae541a4'
         },
         {
           id: '7',
-          skill: 'Node.js',
+          name: 'Node.js',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-node.png?alt=media&token=746bf621-6381-400f-8f92-29f3c30d2f56'
         }
       ]
     },
     projects: {
       titleProjects: 'Projects',
-      projects: [
+      projectsArray: [
         {
           id: '1',
           project: 'MovieMon',
@@ -98,7 +98,7 @@ portfolioRouter.get('/', async (request, response) => {
     },
     contact: {
       titleContact: 'Contacto',
-      email: 'AbrahamSerrano96@hotmai.com',
+      email: 'AbrahamSerrano96@hotmail.com',
       url: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/about-me.jpeg?alt=media&token=211a7616-b975-4a18-a84b-fd52c045fc9e'
     },
     social: {
