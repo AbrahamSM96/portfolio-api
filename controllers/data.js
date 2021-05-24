@@ -46,6 +46,21 @@ portfolioRouter.get('/', async (request, response) => {
           id: '7',
           name: 'Node.js',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/icon-node.png?alt=media&token=746bf621-6381-400f-8f92-29f3c30d2f56'
+        },
+        {
+          id: '8',
+          name: 'GraphQL',
+          img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/graphql.png?alt=media&token=905850a7-4910-469f-b52f-b4525cb35c1b'
+        },
+        {
+          id: '9',
+          name: 'Mongo DB',
+          img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/mongodb.png?alt=media&token=3e36a1ed-f363-4e51-b383-d998ce525868'
+        },
+        {
+          id: '10',
+          name: 'Styled Components',
+          img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/styled.png?alt=media&token=fb738db0-416e-419f-88e8-0f981757f30c'
         }
       ]
     },
