@@ -68,7 +68,7 @@ portfolioRouter.get('/', async (request, response) => {
           id: '3',
           project: 'Portfolio',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/portfolio.png?alt=media&token=dd68328a-52b7-42fb-bce5-4242e6d4c093',
-          url: 'https://www.abrahamsm.com/'
+          url: 'https://abrahamsm96.github.io/portfolio_abraham/'
         },
         {
           id: '4',
@@ -87,6 +87,18 @@ portfolioRouter.get('/', async (request, response) => {
           project: 'Rick and Morty',
           img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/rick%20and%20morty.png?alt=media&token=dffe18dd-cb1c-4736-b6f3-6771f56ed252',
           url: 'https://abrahamsm96.github.io/RickAndMorty-React/#/'
+        },
+        {
+          id: '7',
+          project: 'Portfolio NextJS',
+          img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/portfolio_nextjs.png?alt=media&token=7b101a38-8236-4967-b65e-15c97d8dd9e6',
+          url: 'https://portfolio-next-gilt.vercel.app/'
+        },
+        {
+          id: '8',
+          project: 'Swapi with Redux',
+          img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/swapi_redux.png?alt=media&token=d6e50142-32ba-4ed9-b3a1-a7c1746b45e4',
+          url: 'https://swappi-test-liver-abrahamserrano96.vercel.app'
         }
       ]
     },
