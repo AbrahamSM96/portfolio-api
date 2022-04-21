@@ -15,7 +15,7 @@ portfolioRouter.get("/", async (request, response) => {
         {
           id: "1",
           name: "HTML 5",
-          img: "https://i.imgur.com/dNN3HjZ.png",
+          img: "https://i.imgur.com/bhHa752.png",
         },
         {
           id: "2",
