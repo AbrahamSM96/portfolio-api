@@ -65,17 +65,17 @@ portfolioRouter.get("/", async (request, response) => {
         {
           id: "11",
           name: "Redux",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/redux.svg?alt=media&token=66629e44-5b7f-488d-b914-23c9008af093",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284411/portfolio-api/redux_lcxzpy.svg",
         },
         {
           id: "12",
           name: "PostgreSQL",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/postgresql.svg?alt=media&token=da77503a-c3fc-4d27-9fc5-4018f4ad1807",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284414/portfolio-api/postgresql_qkcjoi.svg",
         },
         {
           id: "13",
           name: "Material UI",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/material-ui.svg?alt=media&token=11a17360-5c6d-46f0-9b81-77bb28a6f8fb",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284408/portfolio-api/material-ui_f5izw5.svg",
         },
       ],
     },
@@ -133,20 +133,38 @@ portfolioRouter.get("/", async (request, response) => {
         {
           id: "9",
           project: "Artist Searcher",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/artist.png?alt=media&token=03f08481-62fc-42b2-bcbf-e47807196d00",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284400/portfolio-api/artist_hjoomk.png",
           url: "https://62e81ce614f9dc000815eef2--kaleidoscopic-torrone-dd97ea.netlify.app/",
         },
         {
           id: "10",
           project: "Configurador Hyundai 2020-2022",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/configurador-hyundai-1.png?alt=media&token=09abbc1e-1cb7-4dee-9c92-c440cb1e4c5e",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284406/portfolio-api/configurador-hyundai-1_ckivui.png",
           url: "https://hmm-byo-stage.hyundaimotormex-leads.com/",
         },
         {
           id: "11",
           project: "Configurador Hyundai 2022",
-          img: "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/configurador-hyundai-2.png?alt=media&token=6678c0da-dc43-43e9-8377-2692860dea69",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284230/portfolio-api/configurador-hyundai-2_igbhfy.png",
           url: "https://hmm-byo2-stage.hyundaimotormex-leads.com/",
+        },
+        {
+          id: "12",
+          project: "Pokémon searcher",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284306/portfolio-api/pokemon-searcher_p6s6sq.png",
+          url: "https://abrahamsm96.github.io/pokemon-search-background/",
+        },
+        {
+          id: "13",
+          project: "Devtter Twitter Clone",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284310/portfolio-api/devtter_kbfrkc.png",
+          url: "https://devtter-abrahamserrano96.vercel.app/",
+        },
+        {
+          id: "14",
+          project: "Giffy searcher gifs",
+          img: "https://res.cloudinary.com/dchfrwaei/image/upload/v1666284394/portfolio-api/giffy_fmrmnq.png",
+          url: "https://giffy-phi.vercel.app/",
         },
       ],
     },
@@ -180,7 +198,7 @@ portfolioRouter.get("/", async (request, response) => {
         },
       ],
       urlPortfolio:
-        "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/CV_AbrahamSerranoOct_compressed.pdf?alt=media&token=b7f519df-2f69-472d-a806-1bff578b3652",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-6f7e5.appspot.com/o/CV_AbrahamSerranoOct_compressed.pdf?alt=media&token=e1ffc838-01b9-4a17-8579-93fe4a463632",
     },
   };
   response.json(data);
